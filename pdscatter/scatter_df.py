@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 from .rescale_marker import rescale_marker
 
-def scatter_clr_df(df_samples, x, y, z, horizontal = 0):
+def scatter_df(df_samples, x, y, z, horizontal = 0):
     crlator = correlate_df(df_samples, x, y)
     ccf, valid = crlator(True)
     cm = plt.cm.get_cmap('RdYlBu')
