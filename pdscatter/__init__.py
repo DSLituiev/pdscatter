@@ -8,7 +8,7 @@ from . import correlate_df
 
 from .scatter_df import scatter_df
 from .scatter_df_plotly import scatter_df_plotly, smart_format
-from .correlate_df import correlate_df
+from .correlate_df import correlate_df, valid_indices
 
 __all__ = ["scatter_df", "scatter_df_plotly", "correlate_df"]
 
