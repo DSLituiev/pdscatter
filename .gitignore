@@ -1,4 +1,5 @@
 build/
 dist/
 pdscatter.egg-info/
+pdscatter/__pycache__
 
